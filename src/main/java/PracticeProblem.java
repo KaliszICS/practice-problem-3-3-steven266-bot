@@ -20,7 +20,7 @@ public class PracticeProblem {
     }
 
     public static String pluralize(String word) {
-    String lower = word.toLowerCase();  // 转成小写，忽略大小写
+    String lower = word.toLowerCase();  
     if (lower.endsWith("ey")) {
         return "eys";
     } else if (lower.endsWith("y")) {
